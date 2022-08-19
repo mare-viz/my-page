@@ -2,6 +2,8 @@ body {
   margin: 0;
   color: #333;
   line-height: 1.6;
+  background-color: #f5f5f5;
+  font-family: "Jost", sans-serif;
 }
 
 *,
@@ -25,6 +27,50 @@ h6 {
   margin: 0 auto;
 }
 
+/* Header */
+.header {
+  padding-top: 50px;
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+}
+
+.logo {
+  color: #fff;
+  font-size: 32px;
+  margin-right: 10px;
+}
+
+.logo:last-child {
+  color: #bdff00;
+  margin: 0;
+}
+
+/* Nav */
+.nav {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 50px;
+}
+
 /* Intro */
 .intro {
   width: 100%;
@@ -37,10 +83,13 @@ h6 {
   max-width: 1060px;
 
   position: relative;
+
+  top: 230px;
+  left: 0;
+  z-index: 1;
 }
 
 .intro__hello {
-  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 60px;
   color: #fff;
@@ -50,7 +99,6 @@ h6 {
 }
 
 .intro__work {
-  font-family: "Jost", sans-serif;
   font-weight: 700;
   font-size: 60px;
   color: #bdff00;
@@ -59,7 +107,6 @@ h6 {
 }
 
 .intro__info {
-  font-family: "Jost", sans-serif;
   font-weight: 700;
   font-size: 25px;
   color: #fff;
@@ -70,7 +117,6 @@ h6 {
 .intro__btn {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Jost", sans-serif;
   font-size: 26px;
   font-weight: 700;
 
