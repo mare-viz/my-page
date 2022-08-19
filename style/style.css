@@ -166,11 +166,12 @@ h6 {
   padding: 40px 80px 0;
   margin-left: 20px;
 
-  border: 1px solid #999;
+  box-shadow: 0 0 10px #999;
+  /* border: 1px solid #fff; */
   text-align: center;
 }
 
-.about__item {
+.about__item:first-child {
   margin: 0;
 }
 
