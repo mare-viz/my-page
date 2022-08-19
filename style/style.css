@@ -63,6 +63,7 @@ h6 {
 .nav {
   font-weight: 400;
   font-size: 24px;
+  margin-right: 250px;
 }
 
 .nav__link {
@@ -131,4 +132,55 @@ h6 {
   background-color: #d9d9d9;
 
   margin-left: 20px;
+}
+
+/* About */
+.about {
+  width: 100%;
+  height: 800px;
+
+  margin-top: 125px;
+}
+
+.about__inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #bdff00;
+  margin-bottom: 30px;
+  margin-bottom: 65px;
+}
+
+.about__item {
+  width: 100%;
+
+  min-width: 530px;
+  min-height: 445px;
+
+  padding: 40px 80px 0;
+  margin-left: 20px;
+
+  border: 1px solid #999;
+  text-align: center;
+}
+
+.about__item {
+  margin: 0;
+}
+
+.item__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.item__text {
+  font-weight: 700;
+  font-size: 17px;
 }
