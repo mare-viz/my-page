@@ -45,18 +45,18 @@ h6 {
 }
 
 .name__logo {
-  display: flex;
+  height: 50px;
 }
 
-.logo {
+.name__logo p {
   color: #fff;
+  font-weight: 700;
   font-size: 32px;
-  margin-right: 10px;
+  margin: 0;
 }
 
-.logo:last-child {
+.name__logo b {
   color: #bdff00;
-  margin: 0;
 }
 
 /* Nav */
@@ -243,7 +243,7 @@ h6 {
   height: 600px;
   padding-top: 130px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .footer__item {
@@ -268,23 +268,63 @@ h6 {
   font-size: 20px;
   font-weight: 700;
   display: block;
+  margin-bottom: 10px;
 }
 
-.footer__email,
-.footer__number {
-  display: flex;
-}
-
-.footer__item .title {
-  color: #bdff00;
-  font-size: 20px;
-  font-weight: 700;
-  margin-right: 10px;
-  margin-bottom: 45px;
-}
-
-.footer__item .text {
+.footer__item p {
   color: #fff;
   font-size: 20px;
-  font: 700px;
+  font-weight: 700;
+}
+
+.footer__item b {
+  color: #bdff00;
+}
+
+.footer__social {
+  height: 120px;
+  margin-bottom: 50px;
+}
+
+.social__item {
+  display: flex;
+  justify-content: center;
+}
+
+.social {
+  border-radius: 90px;
+  margin-left: 30px;
+}
+
+.social:first-child {
+  margin: 0;
+}
+
+.social__f {
+  position: relative;
+  top: -120px;
+  left: 1720px;
+
+  border-radius: 90px;
+}
+
+.footer__end {
+  text-align: center;
+  position: relative;
+}
+
+hr {
+  border: 0;
+  background-color: #fff;
+  display: block;
+  width: 1620px;
+  height: 1px;
+}
+
+.footer__end p {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
 }
